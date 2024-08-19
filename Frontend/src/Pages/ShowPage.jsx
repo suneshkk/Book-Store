@@ -13,7 +13,7 @@ const ShowPage = () => {
         const controller = new AbortController();
         const fetchBook = async () => {
             try {
-                const response = await axios.get(`http://localhost:5151/books/${id}`, {
+                const response = await axios.get(`https://book-store-2-8jia.onrender.com/books/${id}`, {
                     signal: controller.signal,
                 });
                 setBook(response.data);
