@@ -31,6 +31,7 @@ const HomePage = () => {
                 setLoading(false);
             });
     }, []);
+    
 
     const backgroundStyle2 = {
         backgroundImage: `url(${Background})`,
