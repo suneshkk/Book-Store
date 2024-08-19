@@ -1,5 +1,5 @@
-import BackButton from "../Component/BackButton";
-import Loading from "../Component/Loading";
+import BackButton from "../Component/BackButton.jsx";
+import Loading from "../Component/Loading.jsx";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import React, { useState } from "react";
