@@ -12,7 +12,7 @@ function DeletePage() {
     const handleDeleteBook = async () => {
         setLoading(true);
         try {
-            const response = await axios.delete(`http://localhost:5000/books/${id}`);
+            const response = await axios.delete(`http://localhost:5151/books/${id}`);
             navigate('/');
         } catch (error) {
             setLoading(false);

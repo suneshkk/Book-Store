@@ -13,7 +13,7 @@ const ShowPage = () => {
         const controller = new AbortController();
         const fetchBook = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/books/${id}`, {
+                const response = await axios.get(`http://localhost:5151/books/${id}`, {
                     signal: controller.signal,
                 });
                 setBook(response.data);

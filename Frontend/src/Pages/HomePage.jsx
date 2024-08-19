@@ -16,7 +16,7 @@ const HomePage = () => {
     useEffect(() => {
         setLoading(true);
         axios
-            .get("http://localhost:5000/books")
+            .get("http://localhost:5151/books")
             .then((response) => {
                 if (response.data) {
                     setBooks(response.data);

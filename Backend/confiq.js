@@ -1,3 +1,2 @@
-export const mongoDBURL = "mongodb+srv://suneshkk232:gtU32vZtwNjYfNBo@cluster0.ydaqf.mongodb.net/" ;
-
-export  const PORT = 5000;
+export const PORT = 5151;
+export const mongoDBURL ="mongodb+srv://suneshkk232:o8ZMJJF3ZcFIfbZp@cluster0.yjtrb.mongodb.net/"; 
